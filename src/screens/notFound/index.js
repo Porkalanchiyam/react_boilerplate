@@ -8,7 +8,7 @@
 
 import React from "react";
 import { Grid, Typography, Link } from "@material-ui/core";
-import { withNavBars } from '../../HOCs';
+import { withNavBars } from "../../HOCs";
 
 class NotFound extends React.Component {
   render() {

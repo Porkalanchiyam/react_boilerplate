@@ -8,35 +8,30 @@
 
 import React from "react";
 import { makeStyles } from "@material-ui/core";
-import {
-  TopNavBar,
-  SideNavBar
-} from '../components';
+import { TopNavBar } from "../components";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
   },
   content: {
-    width: '100%',
-    height: 'calc(100vh - 64px)',
+    width: "100%",
+    height: "calc(100vh - 64px)",
     overflow: "auto",
     [theme.breakpoints.up("sm")]: {
-      paddingLeft: 56
+      paddingLeft: 56,
     },
     [theme.breakpoints.down("sm")]: {
-      paddingLeft: 0
-    }
+      paddingLeft: 0,
+    },
   },
-  topNavbar: {
-  },
+  topNavbar: {},
   sideNavbar: {
     [theme.breakpoints.down("sm")]: {
-      display: "none"
-    }
-  }
+      display: "none",
+    },
+  },
 }));
-
 
 const withNavBars = (Component) => (props) => {
   const classes = useStyles({ props });
@@ -48,9 +43,9 @@ const withNavBars = (Component) => (props) => {
         <TopNavBar />
       </div>
 
-      {<div className={classes.sideNavbar}>
+      {/* {<div className={classes.sideNavbar}>
         <SideNavBar />
-      </div>}
+      </div>} */}
 
       {/* Content */}
       <div className={classes.content}>
