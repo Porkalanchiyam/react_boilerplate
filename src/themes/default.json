@@ -16,7 +16,7 @@
       },
       "secondary": {
           "light": "#ff4081",
-          "main": "#f50057",
+          "main": "#5f6368",
           "dark": "#c51162",
           "contrastText": "#fff"
       },
@@ -31,6 +31,16 @@
           "secondary": "rgba(0, 0, 0, 0.54)",
           "disabled": "rgba(0, 0, 0, 0.38)",
           "hint": "rgba(0, 0, 0, 0.38)"
+      }
+  },
+  "fontSize":{
+      "font":{
+          "h1":"20px",
+          "h2":"18px",
+          "h3":"16px",
+          "h4":"14px",
+          "h5":"12px",
+          "h6":"10px"
       }
   }
 }

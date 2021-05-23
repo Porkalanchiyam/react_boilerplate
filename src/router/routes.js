@@ -8,6 +8,10 @@
 
 export const Routes = {
   //Auth routes
-  home: "/",
+  home: "/home",
+  videos: "/videos",
+  travels: "/travels",
+  iyer: "/iyer",
+  visit: "/visit",
+  aboutus: "/aboutus",
 };
-
